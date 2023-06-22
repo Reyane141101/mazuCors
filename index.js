@@ -54,7 +54,7 @@ app.post('/api/predict', async (req, res) => {
     res.json(mlResponse.data);
   } catch (error) {
     console.error('Erreur lors de l\'appel à l\'endpoint ML:', error);
-    res.status(500).json({ error: 'Erreur lors de l\'appel à l\'endp oint ML' });
+    res.status(500).json({ error: 'Erreur lor s de l\'appel à l\'endp oint ML' });
   }
 });
 
