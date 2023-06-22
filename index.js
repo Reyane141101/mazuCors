@@ -55,7 +55,7 @@ module.exports = async function (context, req) {
         body: data,
       };
     } catch (error) {
-      context.log.error('Erreur lors de l\'appel à l\'endpoint ML:', error);
+      context.log.error('Erreur lors de  l\'appel à l\'endpoint ML:', error);
   
       // Renvoyer une erreur en cas d'échec
       context.res = {
