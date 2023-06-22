@@ -59,5 +59,5 @@ app.post('/api/predict', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Function App démarrée sur le port ${port}`);
+  console.log(`Function App démarrée sur  le port ${port}`);
 });
