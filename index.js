@@ -21,7 +21,7 @@ app.post('/api/predict', async (req, res) => {
     });
 
     // Renvoyer les résultats au client (votre application web)
-    res.json(response.data);
+    res.json("HELLO ZEBOOOOOOOOO");
   } catch (error) {
     console.error('Erreur lors de l\'appel à l\'endpoint ML:', error);
     res.status(500).json({ error: 'Erreur lors de l\'appel à l\'endpoint ML' });
